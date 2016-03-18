@@ -21,3 +21,27 @@ keytool -list -v -keystore my-release-key.keystore
 
 #IMPORTANTE 
 DESDE QUE ESTO USA EL FINGERPRINT DEBO CONSTUIR EL APK USANDO IONIC PACKAGE PARA QUE USE ESA MISMA CLAVE
+
+
+http://ionicframework.com/docs/guide/publishing.html
+#http://shallowsky.com/blog/programming/cordova-create-signed-app.html
+
+
+S:/sportudo/componentes/branchio/kykelyn1/platforms/android/build/outputs/apk/
+
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore kykelyn1.keystore android-release-unsigned.apk kykelyn1
+
+
+#zipalign 
+ C:\Users\sebastianc\AppData\Local\Android\android-sdk\build-tools\20.0.0
+
+
+
+ zipalign -v 4 S:\sportudo\componentes\branchio\kykelyn1\platforms\android\build\outputs\apk\android-release-unsigned.apk S:\sportudo\componentes\branchio\kykelyn1\platforms\android\build\outputs\apk\kykelyn1.apk
+
+
+
+ ##
+ https://www.webniraj.com/2016/03/03/cordova-release-signing-android-applications/
