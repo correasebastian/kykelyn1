@@ -45,3 +45,10 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore kykelyn1.keysto
 
  ##
  https://www.webniraj.com/2016/03/03/cordova-release-signing-android-applications/
+
+ ##release crosswalk 
+ https://baxeico.wordpress.com/2015/05/20/how-to-automatically-sign-your-android-apk-using-ionic-framework-and-crosswalk/
+
+ ##play store
+
+ https://play.google.com/apps/publish/?dev_acc=09337084565237559139#AppListPlace
