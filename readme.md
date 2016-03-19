@@ -45,3 +45,23 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore kykelyn1.keysto
 
  ##
  https://www.webniraj.com/2016/03/03/cordova-release-signing-android-applications/
+
+ ##release crosswalk 
+ https://baxeico.wordpress.com/2015/05/20/how-to-automatically-sign-your-android-apk-using-ionic-framework-and-crosswalk/
+
+ ##play store
+
+ https://play.google.com/apps/publish/?dev_acc=09337084565237559139#AppListPlace
+
+
+ ## CUANDO LO HAGO CON EL FIRMADO ESTA FUNCIONANDO OK
+
+
+ ##cuando le hago ionic run android tambien esta funcionando
+
+ ##CON EL DEBUG ANDROID-DEBUG.APK TAMBIEN ESTA FUNCIONANDO
+ entonces no entiendo para k sirve el fingerprint,
+ o sera que siempre lo esta usando para firmar todo el que metimos 
+
+
+# sera por que ya tengo una aplicacion en play store firmada con ese .keystore
