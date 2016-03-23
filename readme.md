@@ -51,6 +51,7 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore kykelyn1.keysto
 
  ##play store
 
+<<<<<<< HEAD
  https://play.google.com/apps/publish/?dev_acc=09337084565237559139#AppListPlace
 
 
@@ -65,3 +66,6 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore kykelyn1.keysto
 
 
 # sera por que ya tengo una aplicacion en play store firmada con ese .keystore
+=======
+ https://play.google.com/apps/publish/?dev_acc=09337084565237559139#AppListPlace
+>>>>>>> origin/master
